@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Students>
+    <Student>
+        <Picture>https://kpopping.com/documents/3e/2/350/Sana-facePicture(19).webp?v=af0f2</Picture>
+        <Name>Minatozaki Sana</Name>
+        <Course>BSIT</Course>
+        <YearLevel_Section>3BG1</YearLevel_Section>
+        <Adviser>Mr. JYP</Adviser>
+        <SchoolYear>2024-2025</SchoolYear>
+    </Student>
+    <Student>
+        <Picture>https://kpopping.com/documents/47/5/350/Jihyo-facePicture(1).webp?v=610f2</Picture>
+        <Name>Park Ji-hyo</Name>
+        <Course>BSIT</Course>
+        <YearLevel_Section>3BG1</YearLevel_Section>
+        <Adviser>Mr. JYP</Adviser>
+        <SchoolYear>2024-2025</SchoolYear>
+    </Student>
+	<Student>
+        <Picture>https://kpopping.com/documents/aa/1/350/Nayeon-facePicture(35).webp?v=5a8c1</Picture>
+        <Name>Im Na-yeon</Name>
+        <Course>BSIT</Course>
+        <YearLevel_Section>3BG1</YearLevel_Section>
+        <Adviser>Mr. JYP</Adviser>
+        <SchoolYear>2024-2025</SchoolYear>
+    </Student>
+	<Student>
+        <Picture>https://kpopping.com/documents/79/5/350/Jeongyeon-facePicture(20).webp?v=bd340</Picture>
+        <Name>Yoo Jeong-yeon</Name>
+        <Course>BSIT</Course>
+        <YearLevel_Section>3BG1</YearLevel_Section>
+        <Adviser>Mr. JYP</Adviser>
+        <SchoolYear>2024-2025</SchoolYear>
+    </Student>
+	<Student>
+        <Picture>https://kpopping.com/documents/84/1/350/Momo-facePicture(20).webp?v=bd340</Picture>
+        <Name>Hirai Momo</Name>
+        <Course>BSIT</Course>
+        <YearLevel_Section>3BG1</YearLevel_Section>
+        <Adviser>Mr. JYP</Adviser>
+        <SchoolYear>2024-2025</SchoolYear>
+    </Student>
+	<Student>
+        <Picture>https://kpopping.com/documents/27/1/350/Mina-facePicture(39).webp?v=8be74</Picture>
+        <Name>Myoui Mina</Name>
+        <Course>BSIT</Course>
+        <YearLevel_Section>3BG1</YearLevel_Section>
+        <Adviser>Mr. JYP</Adviser>
+        <SchoolYear>2024-2025</SchoolYear>
+    </Student>
+	<Student>
+        <Picture>https://kpopping.com/documents/68/3/350/Dahyun-facePicture(23).webp?v=8c0b3</Picture>
+        <Name>Kim Da-hyun</Name>
+        <Course>BSIT</Course>
+        <YearLevel_Section>3BG1</YearLevel_Section>
+        <Adviser>Mr. JYP</Adviser>
+        <SchoolYear>2024-2025</SchoolYear>
+    </Student>
+	<Student>
+        <Picture>https://kpopping.com/documents/03/1/350/Chaeyoung-facePicture(24).webp?v=1b4b7</Picture>
+        <Name>Son Chae-young</Name>
+        <Course>BSIT</Course>
+        <YearLevel_Section>3BG1</YearLevel_Section>
+        <Adviser>Mr. JYP</Adviser>
+        <SchoolYear>2024-2025</SchoolYear>
+    </Student>
+	<Student>
+        <Picture>https://kpopping.com/documents/9c/0/350/Tzuyu-facePicture(19).webp?v=26140</Picture>
+        <Name>Chou Tzu-yu</Name>
+        <Course>BSIT</Course>
+        <YearLevel_Section>3BG1</YearLevel_Section>
+        <Adviser>Mr. JYP</Adviser>
+        <SchoolYear>2024-2025</SchoolYear>
+    </Student>
+	<Student>
+        <Picture>https://kpopping.com/documents/a8/4/1200/TWICE-fullPicture(44).webp?v=8189a</Picture>
+        <Name>Twice 0T9</Name>
+        <Course>BSIT</Course>
+        <YearLevel_Section>3BG1</YearLevel_Section>
+        <Adviser>Mr. JYP</Adviser>
+        <SchoolYear>2024-2025</SchoolYear>
+    </Student>
+</Students>

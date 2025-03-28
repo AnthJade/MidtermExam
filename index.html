@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Records</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            margin: 20px;
+            text-align: center;
+        }
+        h2 {
+            font-size: 24px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .card {
+            border: 3px solid black;
+            padding: 10px;
+            width: 250px;
+            text-align: left;
+            border-radius: 8px;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+        }
+        .card img {
+            width: 50px;
+            height: 50px;
+            border-radius: 5px;
+            float: right;
+        }
+        @media (max-width: 600px) {
+            .card {
+                width: 100%;
+                max-width: 300px;
+            }
+            .card img {
+                width: 40px;
+                height: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h2>JYPE Colleges<br>Library Users</h2>
+    <div class="container" id="studentContainer"></div>
+
+    <script>
+        fetch('anthony_camua.xml')
+            .then(response => response.text())
+            .then(data => {
+                let parser = new DOMParser();
+                let xml = parser.parseFromString(data, "application/xml");
+                let students = xml.querySelectorAll("Student");
+                let container = document.querySelector("#studentContainer");
+                
+                students.forEach(student => {
+                    let card = document.createElement("div");
+                    card.classList.add("card");
+                    
+                    let picture = student.querySelector("Picture")?.textContent || "default.jpg";
+                    let name = student.querySelector("Name")?.textContent || "N/A";
+                    let course = student.querySelector("Course")?.textContent || "N/A";
+                    let yearSection = student.querySelector("YearLevel_Section")?.textContent || "N/A";
+                    let adviser = student.querySelector("Adviser")?.textContent || "N/A";
+                    let schoolYear = student.querySelector("SchoolYear")?.textContent || "N/A";
+                    
+                    card.innerHTML = `
+                        <img src="${picture}" alt="Student Picture">
+                        <p><strong>Name:</strong> ${name}</p>
+                        <p><strong>Course:</strong> ${course}</p>
+                        <p><strong>Year Level / Section:</strong> ${yearSection}</p>
+                        <p><strong>Adviser:</strong> ${adviser}</p>
+                        <p><strong>School Year:</strong> ${schoolYear}</p>
+                    `;
+                    
+                    container.appendChild(card);
+                });
+            })
+            .catch(error => console.error("Error loading XML file:", error));
+    </script>
+</body>
+</html>
